@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS Positioning Examples</title>
+<style>
+	h1 {
+		font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+		text-align: center;
+		margin-top:50px;
+	}
+	
+	div {
+		width: 200px;
+		height: 200px;
+		border: solid black 5px;
+		margin: 20px;
+	}
+	
+	#static {
+		background-color: blue;
+	}
+	
+	#relative {
+		position: relative;
+		top: 50px;
+		left: 50px;
+		background-color: green;
+		z-index: 2000;
+	}
+	
+	#absolute {
+		position: absolute;
+		background-color: red;
+		top: 200px;
+		left: 200px;
+		z-index: 1;
+	}
+	
+	#fixed {
+		position: fixed;
+		background-color: orange;
+	}
+	
+	#sticky {
+		position: sticky;
+		background-color: yellow;
+	}
+	
+	#spacer {
+		width: 100px;
+		height: 2000px;
+	}
+	
+</style>
+</head>
+
+<body>
+	<div id="static"><h1>This box is STATIC</h1></div>
+	<div id="relative"><h1>This box is RELATIVE</h1></div>
+	<div id="absolute"><h1>This box is ABSOLUTE</h1></div>
+	<div id="fixed"><h1>This box is FIXED</h1></div>
+	<div id="sticky"><h1>This box is STICKY</h1></div>
+	<div id="spacer">This box is just a spacer, here to show you how the page behaves when it scrolls vertically. I added it halfway through the tutorial, so you'll see this at the end of the video! Sorry if it confused you... - Jess :) <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan. Orci eu lobortis elementum nibh tellus molestie nunc non blandit. Magna etiam tempor orci eu lobortis. Tortor id aliquet lectus proin nibh. Id semper risus in hendrerit gravida rutrum quisque. A erat nam at lectus urna duis convallis convallis tellus. Senectus et netus et malesuada fames ac turpis. Et molestie ac feugiat sed lectus vestibulum. Diam sollicitudin tempor id eu nisl nunc mi. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Interdum consectetur libero id faucibus nisl. Nisl vel pretium lectus quam. Suspendisse in est ante in nibh mauris cursus mattis. Aliquet nec ullamcorper sit amet risus. Quis hendrerit dolor magna eget. Enim praesent elementum facilisis leo vel fringilla est. Sem nulla pharetra diam sit amet nisl suscipit adipiscing. Diam ut venenatis tellus in metus vulputate. Tortor consequat id porta nibh venenatis. Est ullamcorper eget nulla facilisi  </div>
+</body>
+</html>
